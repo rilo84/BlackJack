@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    background-image:url(/Images/Table/bgpoker.svg);
+    background-repeat: repeat;
+    background-size:300px 300px;
+    margin:0px;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+#heart{
+    width:80px;
+    height:80px;
+    fill: red;
+    opacity:0.8;
+}
