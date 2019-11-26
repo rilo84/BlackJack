@@ -5,17 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="blackjack.js" type="module"></script>
+    <script src="gameplay.js" type="module"></script>
     <title>Document</title>
   </head>
   <body>
     <section id="container">
-      <div id="deckcard">
-        <img id="deck" src="Images/Cards/cardback.svg" />
-      </div>
-      <div id="logo">
-        <img id="card" />
-      </div>
+      <section id="dealerScoreContent">
+          <h2 id=dealerScoreLow>Score low:</h2>
+          <h2 id=dealerScoreHigh>Score high:</h2>
+      </section>
+      <section id="dealerContent">
+          <img id="dealerCard1" class ="dcard"/>
+          <img id="dealerCard2" class ="dcard"/>
+          <img id="dealerCard3" class ="dcard"/>
+          <img id="dealerCard4" class ="dcard" />
+          <img id="dealerCard5" class ="dcard"/>
+      </section>
+      <section id="gameContent">
+        <button id="start">Start Game</button>
+        <button id="takeCard">Take Card</button>
+      </section>
+      <section id="playerScoreContent">
+          <h2 id=playerScoreLow>Score low:</h2>
+          <h2 id=playerScoreHigh>Score high:</h2>
+      </section>
+      <section id="playerContent">
+          <img id="playerCard1" class ="card"/>
+          <img id="playerCard2" class ="card"/>
+          <img id="playerCard3" class ="card"/>
+          <img id="playerCard4" class ="card"/>
+          <img id="playerCard5" class ="card"/>
+      </section>
     </section>
   </body>
 </html>

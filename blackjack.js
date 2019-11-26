@@ -1,7 +1,7 @@
 import { Deck } from "./deck.js";
 import {ScoreTable} from "./scoretable.js";
 
-class BlackJack {
+export class BlackJack {
   constructor(deckAmount = 6) {
     this.deckAmount = deckAmount;
     this.deck = new Deck(2).Create();
@@ -11,8 +11,8 @@ class BlackJack {
     this.scoreAceLow = 0;
     this.dealerScoreAceLow = 0;
     this.dealerScoreAceHigh = 0;
-    this.currentCard = null;
-    this.dealerCurrentCard = null;
+    this.playerCards =[];
+    this.dealerCards = [];
   }
 
   SortDeck() {
@@ -28,9 +28,9 @@ class BlackJack {
     return this.deck;
   }
 
-  TakeCard() {
-    let card = blackjack.deck[this.playedCards];
-    this.currentCard = card;
+  PlayerTakeCard() {
+    let card = this.deck[this.playedCards];
+    this.playerCards.push(card);
     if(typeof this.scoretable[card] === 'number'){
       this.scoreAceLow += this.scoretable[card];
       this.scoreAceHigh += this.scoretable[card];
@@ -41,23 +41,21 @@ class BlackJack {
     }
     this.playedCards++;
   }
+
+  DealerTakeCard() {
+    let card = this.deck[this.playedCards];
+    this.dealerCards.push(card);
+    if(typeof this.scoretable[card] === 'number'){
+      this.dealerScoreAceLow += this.scoretable[card];
+      this.dealerScoreAceHigh += this.scoretable[card];
+    }
+    else{
+      this.dealerScoreAceLow += this.scoretable[card][0];
+      this.dealerScoreAceHigh += this.scoretable[card][1];
+    }
+    this.playedCards++;
+  }
 }
 
-const htmlCard = document.getElementById("card");
-const blackjack = new BlackJack(6);
-blackjack.SortDeck();
-blackjack.TakeCard();
-console.log(blackjack.currentCard);
-console.log(blackjack.scoreAceHigh);
-console.log(blackjack.scoreAceLow);
-blackjack.TakeCard();
-console.log(blackjack.currentCard);
-console.log(blackjack.scoreAceHigh);
-console.log(blackjack.scoreAceLow);
-blackjack.TakeCard();
-console.log(blackjack.currentCard);
-console.log(blackjack.scoreAceHigh);
-console.log(blackjack.scoreAceLow);
-console.log(`${blackjack.currentCard}.png`);
-console.log()
-htmlCard.src = `./Images/Cards/${blackjack.currentCard}.png`;
+
+
