@@ -14,9 +14,9 @@ export class Deck {
       Jack: 10,
       Queen: 10,
       King: 10,
-      Ace: [1, 14]
+      Ace: [1, 11]
     };
-    this.suits = ["Heart", "Spades", "Clubs", "Diamonds"];
+    this.suits = ["Hearts", "Spades", "Clubs", "Diamonds"];
   }
 
   Create() {

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="726"
+   viewBox="0 0 132.29166 192.08751"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="cardback.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Tartan"
+       inkscape:menu="Overlays"
+       inkscape:menu-tooltip="Checkered tartan pattern"
+       style="color-interpolation-filters:sRGB;"
+       id="filter474">
+      <feTurbulence
+         type="turbulence"
+         result="result0"
+         seed="5"
+         numOctaves="1"
+         baseFrequency="0 0.184"
+         id="feTurbulence460" />
+      <feTurbulence
+         result="result3"
+         type="turbulence"
+         seed="57"
+         numOctaves="1"
+         baseFrequency="0.285 0"
+         id="feTurbulence462" />
+      <feComposite
+         result="result1"
+         operator="over"
+         in2="result0"
+         id="feComposite464" />
+      <feMerge
+         result="result2"
+         id="feMerge470">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode466" />
+        <feMergeNode
+           in="result0"
+           id="feMergeNode468" />
+      </feMerge>
+      <feComposite
+         result="result4"
+         in="SourceGraphic"
+         operator="in"
+         in2="result2"
+         id="feComposite472" />
+    </filter>
+    <filter
+       inkscape:label="Tartan"
+       inkscape:menu="Overlays"
+       inkscape:menu-tooltip="Checkered tartan pattern"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1329">
+      <feTurbulence
+         type="turbulence"
+         result="result0"
+         seed="5"
+         numOctaves="1"
+         baseFrequency="0 0.184"
+         id="feTurbulence1315" />
+      <feTurbulence
+         result="result3"
+         type="turbulence"
+         seed="57"
+         numOctaves="1"
+         baseFrequency="0.285 0"
+         id="feTurbulence1317" />
+      <feComposite
+         result="result1"
+         operator="over"
+         in2="result0"
+         id="feComposite1319" />
+      <feMerge
+         result="result2"
+         id="feMerge1325">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode1321" />
+        <feMergeNode
+           in="result0"
+           id="feMergeNode1323" />
+      </feMerge>
+      <feComposite
+         result="result4"
+         in="SourceGraphic"
+         operator="in"
+         in2="result2"
+         id="feComposite1327" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.01"
+     inkscape:cx="235.14851"
+     inkscape:cy="364.87805"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-104.91248)">
+    <rect
+       style="fill:#550000;fill-opacity:1;stroke:#6a0000;stroke-width:2.60663867;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1281"
+       width="129.68503"
+       height="189.48087"
+       x="1.2851871"
+       y="106.23394" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke:#6a0000;stroke-width:2.64600015;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1329)"
+       id="rect1285"
+       width="115.52599"
+       height="174.72978"
+       x="8.9067659"
+       y="113.36343"
+       inkscape:transform-center-x="111.85851"
+       inkscape:transform-center-y="0.78588541" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1331"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,104.91248)"><flowRegion
+         id="flowRegion1333"><rect
+           id="rect1335"
+           width="279.20792"
+           height="211.8812"
+           x="109.90099"
+           y="210.15842" /></flowRegion><flowPara
+         id="flowPara1337"
+         style="font-size:192.00000242px">R</flowPara></flowRoot>  </g>
+</svg>

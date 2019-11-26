@@ -9,13 +9,33 @@ body{
 #container{
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     height:100%;
 }
 
-#heart{
-    width:80px;
-    height:80px;
-    fill: red;
-    opacity:0.8;
+#card{
+    width:200px;
+    height:auto;
+    animation-name: cardIn;
+    animation-duration: 1s;
+    margin:20px;
+    perspective: 1000px;
+}
+
+#deck{
+    width:200px;
+    height:auto;
+    position: absolute;
+    top:100px;
+    left:100px;
+    perspective: 1000px;
+}
+
+@keyframes cardIn{
+    0% {
+        transform: translate(-500px,-500px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
